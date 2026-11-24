@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyectos de software, soporte técnico y desarrollo web realizados por Kemil Yair Aspiazu Ruiz.">
+  <title>Proyectos | Kemil Yair Aspiazu Ruiz</title>
+
+  <!-- Hojas de estilo oficiales: global.css primero, pages.css después -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- Encabezado y Barra de Navegación Compartida -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">
+        <span>Kemil</span>Aspiazu<span>.</span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        ☰
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Inicio</a></li>
+        <li><a href="about.html" class="nav-link">Sobre mí</a></li>
+        <li><a href="skills.html" class="nav-link">Habilidades</a></li>
+        <li><a href="projects.html" class="nav-link">Proyectos</a></li>
+        <li><a href="contact.html" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido Principal de Proyectos -->
+  <main>
+    <section class="section">
+      <div class="container">
+        <!-- Encabezado de la página -->
+        <div class="section-header">
+          <span class="section-tag">Portafolio</span>
+          <h1 class="section-title">Proyectos y Soluciones Técnicas</h1>
+          <p class="section-desc">
+            Proyectos aplicados que integran desarrollo web, soporte técnico de equipos informáticos, control de mantenimiento y procesamiento de datos.
+          </p>
+        </div>
+
+        <!-- Cuadrícula de Proyectos -->
+        <div class="projects-grid">
+          
+          <!-- Proyecto 1: Sistema de Registro y Control de Soporte Técnico -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/project1.svg" alt="Vista previa del Sistema de Control de Soporte Técnico" class="project-img">
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Sistema de Gestión de Soporte y Equipos</h2>
+              <p class="project-desc">
+                Aplicación web para registrar órdenes de servicio, seguimiento de mantenimientos preventivos y correctivos a equipos de cómputo, diagnóstico de fallas y control de clientes particulares y cooperativas.
+              </p>
+              <div class="project-badges">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS Grid</span>
+                <span class="badge">JavaScript ES6</span>
+                <span class="badge">PHP</span>
+                <span class="badge">Soporte Técnico</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver Demo</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2: Portal de Servicios Informáticos y Cotización -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/project2.svg" alt="Vista previa del Portal de Servicios Informáticos" class="project-img">
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Portal de Servicios Informáticos</h2>
+              <p class="project-desc">
+                Sitio web comercial y responsivo que presenta un catálogo detallado de servicios informáticos (mantenimiento, formateo, configuración de periféricos) con conexión directa para cotización inmediata por WhatsApp.
+              </p>
+              <div class="project-badges">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS Flexbox</span>
+                <span class="badge">Vanilla JS</span>
+                <span class="badge">API WhatsApp</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver Demo</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3: Módulo de Control de Inventario y Reportes ERP -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="assets/img/project3.svg" alt="Vista previa del Módulo de Inventario y Reportes ERP" class="project-img">
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Módulo de Inventario y Reportes ERP</h2>
+              <p class="project-desc">
+                Herramienta web desarrollada para agilizar la digitación de hardware corporativo, inspirado en flujos de trabajo ERP y generación de reportes en Excel, permitiendo categorizar piezas, periféricos y estados operativos.
+              </p>
+              <div class="project-badges">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3 Custom Props</span>
+                <span class="badge">Vanilla JS</span>
+                <span class="badge">Manejo ERP</span>
+                <span class="badge">Excel / Datos</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver Demo</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Código</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página Compartido -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-text">
+        &copy; <span id="current-year"></span> Kemil Yair Aspiazu Ruiz. Todos los derechos reservados.
+      </p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/kemil-yair-aspiazu-ruiz-585397119/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="mailto:kyar10@hotmail.com" class="footer-link">Correo</a>
+        <a href="https://wa.me/593960879165" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a>
+        <a href="contact.html" class="footer-link">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Global -->
+  <script src="js/main.js"></script>
+</body>
+</html>
